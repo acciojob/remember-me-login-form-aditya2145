@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+form {
+	display: flex; 
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.btns {
+	display: flex; 
+	gap: 1rem;
+}
+
+#username, #password{
+	border: 1px solid gray;
+	border-radius: 5px;
+	width: 20rem;
+	padding: 0.5rem 1rem;
+}
+
+#submit, #existing {
+	width: fit-content;
+	padding: 0.4rem 1rem;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+#existing {
+	display: none;
+}
